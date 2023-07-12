@@ -10,7 +10,7 @@ Versão do Java: 17.
 Preencha o arquivo .properties e rode a aplicação.
 
 
-```http
+```
     spring.jpa.hibernate.ddl-auto=update
     spring.datasource.username = *****
     spring.datasource.password = *****
@@ -25,4 +25,6 @@ Preencha o arquivo .properties e rode a aplicação.
     spring.mail.properties.mail.smtp.auth=true
     spring.mail.properties.mail.smtp.starttls.enable=true
 ```
+
+ - [Michelli Brito](https://www.youtube.com/@MichelliBrito)
 
