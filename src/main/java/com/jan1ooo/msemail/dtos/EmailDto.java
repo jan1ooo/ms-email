@@ -7,6 +7,7 @@ import lombok.Data;
 @Data
 public class EmailDto {
 
+    private Long id_email;
     @NotBlank
     private String ownerRef;
     @NotBlank
