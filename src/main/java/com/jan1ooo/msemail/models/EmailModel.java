@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 public class EmailModel{
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_email;
 
     private String ownerRef;

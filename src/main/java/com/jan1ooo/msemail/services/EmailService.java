@@ -1,5 +1,6 @@
 package com.jan1ooo.msemail.services;
 
+import com.jan1ooo.msemail.dtos.EmailDto;
 import com.jan1ooo.msemail.enums.StatusEmail;
 import com.jan1ooo.msemail.models.EmailModel;
 import com.jan1ooo.msemail.repositories.EmailRepository;
@@ -7,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

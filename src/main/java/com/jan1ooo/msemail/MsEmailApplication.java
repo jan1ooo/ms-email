@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MsEmailApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MsEmailApplication.class, args);
+         SpringApplication.run(MsEmailApplication.class, args);
     }
 
 }
