@@ -1,4 +1,7 @@
 package com.jan1ooo.msemail.enums;
 
-public class StatusEmail {
+public enum StatusEmail {
+    PROCESSING,
+    SENT,
+    ERROR;
 }
